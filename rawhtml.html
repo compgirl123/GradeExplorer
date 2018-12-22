@@ -1,0 +1,85 @@
+<div class="container">
+    <div id="toolbar" class="clearfix">
+      <div class="lhs">&nbsp;</div>
+      <div id="tools" class="rhs">
+        <a href="https://www.concordia.ca/">Concordia University</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://www.concordia.ca/maps.html">Maps</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://www.concordia.ca/maps/shuttle-bus.html">Shuttle</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://www.concordia.ca/web/a-z.html">A-Z index</a>
+      </div>
+    </div>
+  
+    <div id="head">
+      <a href="https://www.myconcordia.ca" title="Go to the MyConcordia home page"><h1 class="header_title"><span>MyConcordia</span></h1></a>
+    </div>
+
+    <div class="content">
+      <div class="col-a">
+        <p>The MyConcordia portal provides personalized and confidential information to students, faculty and staff.</p>
+
+        <form id="login" action="?cmd=login&amp;languageCd=ENG" method="post" name="login" onsubmit="return signin(document.login)">
+	  <input type="hidden" id="device" name="device" value="">
+          <input type="hidden" id="cufld" name="cufld">
+          <input type="hidden" name="resource" value="/content/cspace/en/login.html">
+          <input type="hidden" name="_charset_" value="UTF-8">
+          <div style="margin-left:93px;">
+                <h1 id="error_img" style="display:none"><a id="error_link" href="javascript:setFocus();" tabindex="1"></a></h1>
+                <h2 class="psloginerror" id="login_error" style="visibility:hidden"></h2>
+                <h2 class="psloginerror" id="discovery_error" style="visibility:hidden"></h2>
+              </div><div id="cu_override"><div class="psloginerror" id="browsercheck_error" style="text-align:left"></div></div><table class="login-form">
+            <tbody><tr>
+              
+              
+            </tr>
+            <tr>
+              <td>
+                <label for="userid">Netname</label>
+              </td>
+              <td>
+                <input type="text" id="userid" class="form_field form_field_text form_login_username" name="userid" value="" autofocus="" tabindex="1" maxlength="10">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="pwd">Password</label>
+              </td>
+              <td>
+                <input type="password" class="form_field form_field_text form_login_password" id="pwd" name="pwd" value="" tabindex="2" maxlength="16" onchange="cuFldHandler(this)">
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input class="form_button_submit" type="submit" value="Log in" onclick="submitAction(document.login)">
+                <div class="info-text">
+                  <a href="https://fcms.concordia.ca/idss/pages/account/passwordreset.aspx">Forgot password?</a><br>
+                  New employee? <a href="https://fcms.concordia.ca/idss/pages/account/passwordreset.aspx">Activate your netname</a>
+                </div>
+              </td>
+            </tr>
+          </tbody></table>
+        </form>
+      </div>
+
+      <div class="col-b">
+        <p>
+	  <a href="https://m.myconcordia.ca/login.html" class="highlight">View My Grades</a><br>
+          <a href="https://campus.concordia.ca/psc/pscsprd/EMPLOYEE/SA/c/CU_EXT.CU_CLASS_SEARCH.GBL" class="highlight">Search for Classes</a><br>
+          <a href="https://www.concordia.ca/events/cancelled-classes.html" class="highlight">View Cancelled Classes</a>
+        </p>
+
+        <p style="margin-bottom: 8px">Additional spaces for students, faculty and staff</p>
+        <ul>
+          <li>The new section on Concordia.ca for <a href="https://www.concordia.ca/students.html">current students</a></li>
+          <li><a href="https://cspace.concordia.ca/">Cspace</a>, the university’s intranet for faculty and staff.</li>
+        </ul>
+        <br>
+        <p>Need technical support?<br><a href="https://www.concordia.ca/it.html">Contact the IT Service Desk</a>.</p>
+        
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
